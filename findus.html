@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design/style.css">
+    <link rel="stylesheet" href="design/responsive.css">
+    <title>FIND MCB</title>
+    
+</head>
+<body id="find">
+    <!-- == NAVBAR == -->
+    <nav class="navbar">
+        <h1 class="logo">MCB</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="findus.html"> Find Us</a></li>
+        </ul>
+        <img src="images/menubtn.png" class="menu-btn" alt="">
+    </nav>
+
+    <!-- == FIND US MCBBBBBBBBBBB == --> 
+
+    
+    <h1 class="con-title"> Contact <span class="cotitle">Us</span></h1>
+    
+    <div class="con-con">
+     
+        <div class="con-left">
+            <div class="cl-content">
+                <h4>Contact No</h4>
+                <a class="con-link">0906 356 4205</a>
+
+                <h4 class="pad-top">Email Address</h4>
+                <a class="con-link">mrcoffeebeanmcb@gmail.com</a>
+
+                <h4 class="pad-top">Facebook Account</h4>
+                <a href="https://www.facebook.com/Mr.CoffeeBeanPh" target="_blank" class="con-link">| Mr. Coffee Bean |</a>
+                
+                <h4 class="pad-top">Instagram Account</h4>
+                <a href="https://www.instagram.com/mr.coffeebean.ph?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="con-link">| Mr. Coffee Bean |</a>
+                
+                <h4 class="pad-top">Address</h4> 
+                <p class="con-link">Brgy. 1 San Lorenzo Laoag City. <br>Ilocos Norte. Philippines</p>
+
+            </div>
+        </div>
+
+        <div class="con-right">
+            <div class="cr-content">
+                
+                <a href="https://maps.app.goo.gl/Zhtx6qi46ZpKz4k37" target="_blank"><img src="images/map.png" alt="MCB GOOGLE MAP IMG" class="img-map"></a>
+            </div>
+           
+        </div>
+    </div>
+
+    
+    
+
+
+
+
+    <!-- == FOOOTEEEEERR == -->
+     
+    <footer>
+        <p>Copyright © 2024 MCB |  All Rights Reserved</p>
+    </footer>
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('hamburger')
+        })
+
+    </script>
+</body>
+</html>

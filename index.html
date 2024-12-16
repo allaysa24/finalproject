@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design/style.css">
+    <link rel="stylesheet" href="design/responsive.css">
+    <title>MCB HOME</title>
+    
+</head>
+<body id="home">
+    <!-- == NAVBAR == -->
+    <nav class="navbar">
+        <h1 class="logo">MCB</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="findus.html"> Find Us</a></li>
+        </ul>
+        <img src="images/menubtn.png" class="menu-btn" alt="">
+    </nav>
+
+    <!-- == HEADER == -->
+    <header>
+        <div class="header-content">
+            <h1>MR. COFFEE BEAN</h1>
+            <h3>Aiming to help our local farmers grow and promote our very own coffee beans</h3>
+            
+        </div>
+    </header>
+
+    <!-- == SECOND PAGE == -->
+
+<section class="event">
+    <div class="event-title">
+        <h1>MCB SPECIAL SERIES</h1>
+        <div class="event-row">
+            <div class="event-col">
+                <img src="images/xmas.png" alt="">
+                <h4 class="title-event">Christmas Special Series</h4>
+                <p class="desc-event">When caramelized cookie goodness meets the warmth of coffee, it's a Biscoff kind of holiday! It's the start of holiday season, kapekadas! Come and get your Biscoff fix! </p>
+            </div>
+
+            <div class="event-col">
+                <img src="images/halloween.png" alt="">
+                <h4 class="title-event">Halloween Special Series</h4>
+                <p class="desc-event">Get your caffeine fix with a spooky twist! These Halloween-inspired coffee concoctions have all the dark, bold flavors to wake the dead—perfect for fueling your haunted adventures!</p>
+            </div>
+        </div> 
+    </div> 
+</section>
+
+<!--== BEST SELLER == -->
+   <h1 class="title-best">MCB's Featured Product</h1>
+     <section class="best">
+                <div class="image-gallery">
+                    <img src="images/iced carmac.png" alt="" style="border: solid  #fbba00;">
+                    <img src="images/iced matcha.png" alt="" style="border: solid  #fbba00;">
+                    <img src="images/iced mcb.png" alt="" style="border: solid  #fbba00">
+                    <img src="images/Red Velvet & Cream Frappe.png" alt="" style="border: solid  #fbba00;">
+                </div>
+     </section>
+
+
+    <!-- == THIRD PAGE == -->
+     
+    <footer>
+        <p>Copyright © 2024 MCB |  All Rights Reserved</p>
+    </footer>
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('hamburger')
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design/style.css">
+    <link rel="stylesheet" href="design/responsive.css">
+    <title>ORDER MCB</title>
+    
+</head>
+<body id="cus">
+    <!-- == NAVBAR == -->
+    <nav class="navbar">
+        <h1 class="logo">MCB</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="findus.html"> Find Us</a></li>
+        </ul>
+        <img src="images/menubtn.png" class="menu-btn" alt="">
+    </nav>
+
+    <!-- == OORRRDDEERRR == --> 
+    <div class="order-con">
+        <h1 class="order-title">ORDER MCB</h1>
+        <p class="order-p">Your Coffee. Your Blend. Your Lifestyle.</p>
+
+        <div class="or-content">
+            <form class="forms">
+                <p>Contact Information</p>
+                <input type="text" placeholder="Name:" required class="inputs">
+                <input type="tel" placeholder="Contact No:" required class="inputs">
+                <input type="email" placeholder="Email:" required class="inputs">
+                <input type="text" placeholder="Delivery Address:" required class="inputs">
+                <p>Orders</p>
+                <textarea placeholder="List your order Here:" rows="10" cols="50" required class="inputs"></textarea>
+                <label for="button">
+                    <button class="submit">Place Order</button>
+                </label>
+            </form>
+
+        </div>
+    </div>
+    
+
+
+
+
+    <!-- == FOOOTEEEEERR == -->
+     
+    <footer>
+        <p>Copyright © 2024 MCB |  All Rights Reserved</p>
+    </footer>
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('hamburger')
+        })
+
+    </script>
+</body>
+</html>
